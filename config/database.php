@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => 'mysql',
 
     /*
     |--------------------------------------------------------------------------
@@ -55,8 +55,7 @@ return [
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
-            'strict' => true,
-            'engine' => null,
+            'strict' => true
         ],
 
         'pgsql' => [
